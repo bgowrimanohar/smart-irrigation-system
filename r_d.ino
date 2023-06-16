@@ -7,8 +7,8 @@ int soilMoistureValue = 0;
 int soilmoisturepercent = 0;
 BlynkTimer timer;
 char auth[] = "Jdr6OZuoUSK-S-Fvr6tW-2M4N3HHLpEn";              //Authentication code sent by Blynk
-char ssid[] = "dlink";                       //WiFi SSID
-char pass[] = "pavan@123"; 
+char ssid[] = "--------------------------";                    //WiFi SSID
+char pass[] = "--------------------------";                    //WiFi Password
 void MainFunction() {
   soilMoistureValue = analogRead(A0); //Mention where the analog pin is connected on NodeMCU
   Serial.println(soilMoistureValue);
